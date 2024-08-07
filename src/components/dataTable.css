@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ 
+ .bodytable{
+    /* padding: 30px 20px; */
+    border:2px solid #cee1ef;
+    border-collapse: collapse;
+    width: 70%;
+    color: #00357d;
+    /* background-color: rgb(240, 255, 241); */
+}
+
+.bodytable thead tr{
+    background-color: #f9fcff;
+    /* border: 2px solid blue; */
+    /* border-collapse: collapse; */
+}
+
+.bodytable .pskills,.lastpost{
+    color: #11297f;
+}
+
+.bodytable .pskills{
+    font-size: 20px;
+    font-family: "Poppins";
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.pskills:hover,.lastpost ul li:hover,.lastpost ul li a:hover{
+    color: rgb(239, 67, 63);
+}
+
+.bodytable .levposts{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bodytable .lastpost{
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.bodytable tbody .lapost-author{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.bodytable .levpostshead{
+    text-align: center;
+}
+
+.bodytable thead tr th{
+    padding: 2rem;
+    text-align: left;
+    border-collapse: collapse;
+    font-family: 'Montserrat';
+}
+
+.bodytable tbody td ul{
+    list-style: none;
+    padding: 0;
+}
+
+.bodytable tbody td ul li{
+    padding-bottom: 10px;
+}
+
+.bodytable tbody td ul li a{
+    text-decoration: none;
+    color: #00357d;
+}
+
+.bodytable th,td{
+    border-collapse: collapse;
+}
+
+.bodytable tbody tr td{
+    padding: 2rem;
+    text-align: left; 
+     /* border: none;  */
+ }
+
+.bodytable thead tr,tbody tr{
+    border-bottom: 2px solid #eee;
+} 
+
+.bodytable img{
+    /* margin-top: 5px; */
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    vertical-align: bottom;
+    margin-right: 10px;
+}

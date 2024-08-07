@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.recent-reply {
+  /* background-color: #3be788; */
+    /* padding-bottom: 20px; */
+    margin-left: 60px;
+    color: #00357d;
+  }
+  
+  .recent-reply td{
+    padding: 12px;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .recent-reply h2{
+    font-family: 'Poppins';
+    font-size: 18px;
+    padding: 5px;
+  }
+  
+  .recent-reply img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    /* margin-right: 0.5rem; */
+    /* float: left; */
+  }
+  
+  .recent-reply .rr{
+    border-top: 3px solid #cee1ef;
+    border-collapse: collapse;
+  }
+  
+  .recent-reply .rr tr td{
+    border-bottom: 1px solid #cee1ef;
+    padding: 20px;
+  
+  }
+  
+  .rr td b{
+    color: #00357d;
+  }
+   
